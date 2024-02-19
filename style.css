@@ -1,0 +1,46 @@
+/* Grundläggande stilar som gäller för alla skärmar */
+body {
+    position: absolute;
+}
+
+#Scores,
+#score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+#background{
+    background-color: #f4a460;
+    height: 100%;
+    width: 100%;
+}
+
+
+#enemih44 {
+    margin-left: auto;
+}
+
+#canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#controls {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+button {
+    font-size: 10px;
+    margin: 3px;
+    padding: 10px 20px;
+    background-color: #f4a460;
+    border: none;
+    border-radius: 5px;
+}
+
+
